@@ -24,7 +24,7 @@ where categoryoptioncomboid not in (
 select * from categoryoptioncombo 
 where categoryoptioncomboid not in (
   select categoryoptioncomboid from categorycombos_optioncombos);
-x|
+
 -- Get category option combos without category options or category combos
 
 select * from categoryoptioncombo
